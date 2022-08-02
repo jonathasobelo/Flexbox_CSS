@@ -47,6 +47,22 @@
         .column-reverse li {
             background: rgb(144, 144, 28);
         }
+
+        .wrap{
+            float:left;
+            flex-wrap: wrap;
+        }
+        .wrap li{
+            background:rgb(103, 21, 110);
+
+        }
+        .wrap-reverse{
+            float:right;
+            flex-wrap: nowrap;
+        }
+        .wrap-reverse li{
+            background: rgb(109, 106, 109);
+        }
     </style>
 </head>
 <body>
@@ -74,6 +90,20 @@
         <li class="flex-item">5</li>
     </ul>
     <ul class="flex-container column-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+    <ul class="wrap">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+    <ul class="wrap-reverse">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
         <li class="flex-item">3</li>
